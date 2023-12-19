@@ -1,0 +1,10 @@
+<div class="container">
+    <h2 style="color:blue">Suite rooms</h2>
+      <input type="text" placeholder="Enter your name" [(ngModel)]="name" required><br><br>
+      <input type="text" placeholder="Enter your id" [(ngModel)]="idProof" required><br><br>
+      <input type="number" placeholder="Number of adults" [(ngModel)]="noOfAdults" required><br><br>
+      <input type="number" placeholder="Number of children" [(ngModel)]="noOfChildren" required><br><br>
+      <input type="button" value="Get the Cost" (click)="getCost()"><br><br>
+      <input type="button" value="Book ticket" (click)="Book()"><br><br>
+      <p style="color:green">The total cost for 1 day is: </p><input style= "color:darkgreen"type="number" placeholder="Total cost" [(ngModel)]="cost"><p style= "color:green">Rs.</p><br><br>
+  </div>
